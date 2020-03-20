@@ -1,0 +1,135 @@
+{
+  "schedule": [
+    {
+      "date": "2047-05-17",
+      "groups": [
+        {
+          "day": "20 de Abril",
+          "sessions": [
+            {
+              "name": "Nordestao",
+              "price": "R$50",
+              "timeStart": "8:00",
+              "timeEnd": "18:00",
+              "timeStartCDD": "5:00",
+              "timeEndCDD": "21:00",
+              "location": "Avenida Bacharel Tomaz Landim 1054, Amarante, Natal/RN",
+              "description": "Essa entrega deverar ser feita no portao de entregas ao lado esquerdo do supermercado",
+              "locationCDD": "Avenida Maranguape, 539, Potengi, Natal/RN",
+              "tracks": ["Supermercado"],
+              "status": "Agendado",
+              "id": "1"
+            }
+          ]
+        },
+        {
+          "day": "22 de Abril",
+          "sessions": [
+            {
+              "name": "Foodsco",
+              "price": "R$35",
+              "location": "721 Taya Passage Apt. 607 - Bozeman, VT / 03566",
+              "description": "Entre de pontinha dos pes para nao fazer barulho. Coloque todas as caixas empilhadas.",
+              "speakerNames": ["Ted Turtle"],
+              "timeStart": "9:30 am",
+              "timeEnd": "9:45 am",
+              "tracks": ["Ionic"],
+              "locationCDD": "717 Rogahn Dam Suite 884 - Mesa, AR / 90345",
+              "id": "2"
+            },
+            {
+              "name": "Cotsco",
+              "price": "R$40",
+              "location": "3266 Bartoletti Corner Suite 590 - Portland, GA / 54421",
+              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "speakerNames": ["Rachel Rabbit"],
+              "timeStart": "9:45 am",
+              "timeEnd": "10:00 am",
+              "tracks": ["Tooling"],
+              "locationCDD": "8837 Alison Station Apt. 179 - Charlotte, NH / 40035",
+              "id": "3"
+            },
+            {
+              "name": "7 Eleven",
+              "price": "R$40",
+              "location": "16374 Monahan Hills Suite 503 - Honolulu, CO / 20208",
+              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "speakerNames": ["Ellie Elephant"],
+              "timeStart": "9:15 am",
+              "timeEnd": "9:30 am",
+              "tracks": ["Ionic"],
+              "locationCDD": "0468 Effertz Brooks Suite 693 - Delray Beach, AL / 71813",
+              "id": "4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "speakers": [
+
+  ],
+
+  "map": [
+    {
+      "name": "Sua localizacao",
+      "lat": 43.071584,
+      "lng": -89.38012,
+      "center": true
+    },
+    {
+      "name": "CDD Natal",
+      "lat": 43.074395,
+      "lng": -89.381056
+    },
+    {
+      "name": "Nordestao",
+      "lat": 43.07336,
+      "lng": -89.38335
+    }
+  ],
+
+  "tracks": [
+    {
+      "name": "Distancia",
+      "icon": "logo-angular"
+    },
+    {
+      "name": "Tempo de entrega",
+      "icon": "document"
+    },
+    {
+      "name": "Carga",
+      "icon": "restaurant"
+    },
+    {
+      "name": "Supermercado",
+      "icon": "logo-ionic"
+    },
+    {
+      "name": "Carrinho de mao",
+      "icon": "hammer"
+    },
+    {
+      "name": "Jegue",
+      "icon": "color-palette"
+    },
+    {
+      "name": "Services",
+      "icon": "cog"
+    },
+    {
+      "name": "Workshop",
+      "icon": "construct"
+    },
+    {
+      "name": "Communication",
+      "icon": "call"
+    },
+    {
+      "name": "Navigation",
+      "icon": "compass"
+    }
+  ]
+}

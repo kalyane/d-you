@@ -1,0 +1,48 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button color='primary' (click)="startApp()" [hidden]="!showSkip">Pular</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true">
+  <ion-slides #slides (ionSlideWillChange)="onSlideChangeStart($event)" pager="false">
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-1.png" class="slide-image" />
+      <h2 class="slide-title">
+        Bem-vindo ao
+        <b>D+You</b>
+      </h2>
+      <p>
+        Esse
+        <b>Aplicativo</b> e uma nova ferramenta que otimizara a satisfacao do cliente no processo de logistica last mile.
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-2.png" class="slide-image" />
+      <h2 class="slide-title">Parcerias</h2>
+      <p>
+        A
+        <b>Ambev</b> e a maior empresa de bebidas do Brasil e tem o orgulho de ser uma de nossas parceiras.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-3.png" class="slide-image" />
+      <h2 class="slide-title">Como funciona o transporte?</h2>
+      <p>
+        Os
+        <b>motoristas</b> como voce sao a essencia da nossa empresa pois sabemos que voce ira dar o seu melhor para fazer uma otima entrega.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image" />
+      <h2 class="slide-title">Pronto para participar dessa revolucao?</h2>
+      <ion-button fill="clear" (click)="startApp()">
+        Continue
+        <ion-icon slot="end" name="arrow-forward"></ion-icon>
+      </ion-button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
